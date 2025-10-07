@@ -53,7 +53,6 @@ With **PolkaPass**, that same familiar flow now works — only this time, **the 
 ### Browser SDK (`sdk/`)
 - TypeScript, browser‑ready build
 - Integrates directly with [polkadot{.js} extension](https://polkadot.js.org/extension/)
-- Includes fallback demo signer for environments without wallet access
 
 ### Demo App (`demo-app/`)
 - Node + Express relying party (RP) implementation
