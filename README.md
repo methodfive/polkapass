@@ -42,6 +42,23 @@ With **PolkaPass**, that same familiar flow now works — only this time, **the 
 
 ---
 
+## 🖼️️ Demo App Screenshots
+
+<p align="center">
+   The PolkaPass demo app homepage. Users start by choosing “Login with Polkadot.”
+   <img src="/assets/home.png" width="450" alt="PolkaPass logo"/>
+</p>
+<p align="center">
+   Wallet prompt asking the user to sign a challenge to verify ownership.
+   <img src="/assets/sign.png" width="450" alt="PolkaPass logo"/>
+</p>
+<p align="center">
+   Successful login! User’s wallet address and verified ID token are displayed.
+   <img src="/assets/session.png" width="450" alt="PolkaPass logo"/>
+</p>
+
+---
+
 ## 🛠 Tech Stack
 
 ### Authorization Server (`auth-server/`)
@@ -70,20 +87,6 @@ With **PolkaPass**, that same familiar flow now works — only this time, **the 
 /shared           # Shared config (.env.example)
 /README.md        # Project overview
 ```
-
----
-
-## 🖼️️ Screenshots
-
-<p align="center">
-   <img src="/assets/home.png" width="450" alt="PolkaPass logo"/>
-</p>
-<p align="center">
-   <img src="/assets/sign.png" width="450" alt="PolkaPass logo"/>
-</p>
-<p align="center">
-   <img src="/assets/session.png" width="450" alt="PolkaPass logo"/>
-</p>
 
 ---
 
