@@ -95,7 +95,7 @@ With **PolkaPass**, that same familiar flow now works — only this time, **the 
 ### Requirements
 - Node.js 18+
 - npm or yarn
-- [Polkadot{.js} browser extension](https://polkadot.js.org/extension/) (optional — demo includes a fallback signer)
+- [Polkadot{.js} browser extension](https://polkadot.js.org/extension/)
 
 ### 1) Run the Authorization Server
 ```bash
@@ -118,7 +118,7 @@ npm run dev
 ### 3) Try the Flow
 1. Open http://localhost:3000
 2. Click **Log in with Polkadot**
-3. Sign the challenge via your wallet (or demo signer)
+3. Sign the challenge via your wallet
 4. The app receives an OAuth `code`, exchanges it for **ID Token + Access Token**
 5. The app verifies the JWT via the Authorization Server’s **JWKS endpoint**
 
